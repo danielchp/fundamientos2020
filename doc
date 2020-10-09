@@ -1,0 +1,56 @@
+ 
+Definir variables:
+	Edad como real
+Datos de entrada
+  	Edad<18
+ 
+ 
+Definir variables
+	Hora, sueldo como variables
+Datos de entrada
+	Hora 
+ 
+Definir variables
+Dinero como real
+Datos de entrada 
+Dinero 
+ 
+Definir variables:
+Hora como real
+Datos de entrada
+Hora 
+ 
+Definir variables
+	Nombre1, nombre2, nombre3, como lógico
+	Edad1, edad2, edad3, como real
+Datos de entrada
+Edad1, edad2, edad3
+ 
+
+Definir variables:
+Precio como real
+Datos de entrada
+precio
+ 
+Definir variables
+Nombre, como logico
+edad, promedio como real
+datos de entrada
+promedio, edad
+ 
+
+Definir variables
+Alcohol, Lente, Enferme, como lógicos
+edad como real
+datos de entrada
+Alcohol, Lente, Enferme, edad
+ 
+Definir variables
+Antigüedad como real
+Datos de entra
+antigüedad
+ 
+Definir variables
+Sueldo, año como real
+Datos de entrada
+Sueldo, año
