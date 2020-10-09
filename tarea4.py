@@ -1,13 +1,17 @@
-precio=int(input("ingrese el costo:"))
-if precio<=200 :
-    descuentox=(precio*15)/100
-    pagofinalx=precio-descuentox
-    print("el pago a realizar es",pagofinalx)
-    if precio<=100>200 :
-     descuentoy=(precio*12)/100
-     pagofinaly=precio-descuentoy
-     print("el dinero a pagr es",pagofinaly)
+hora =int(input("ingrese el numero de horas :"))
+
+if hora<=2 :
+    cobro = hora*5*1
+else :
+    hora>=3 and hora<6 
+    cobro=hora*4*1
+
+    if hora>5 and hora>11 :
+        cobro=hora*3*1*1
     else :
-     descuentoz=(precio*10)/100
-    pagofinalz=precio-descuentoz
-    print("total a pagar",pagofinalz)
+         hora>10 
+         cobro=hora*2*1*1*1
+print("el precio total es:",cobro)
+         
+
+

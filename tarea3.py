@@ -1,12 +1,11 @@
-nombre1=bool(input("ingrese su nombre:"))
-nombre2=bool(input("ingrese su nombre:"))
-nombre3=bool(input("ingrese su nombre:"))
-edad1=int(input("ingrese su edad:"))
-edad2=int(input("ingrese su edad:"))
-edad3=int(input("ingrese su edad:"))
-if edad1<edad2 and edad1<edad3 :
-    print("el nombre y la edad de la persona es:",nombre1 ,edad1)
-if edad2<edad3 :
-    print("el nombre y la edad de la persona es:",nombre2 ,edad2)
-else :
-    print("el nombre y la edad de la persona es:",nombre3 ,edad3)
+dinero=int(input("cuanto dinero es:"))
+if dinero<=10 :
+    print("tu puedes regalar targeta")
+
+if dinero>=11 and dinero<=100 :
+ print("tu puedes regalar chocolate")
+if dinero>=101 and dinero<=250 :
+   print("tu puedes regalar flores")
+if dinero>251 :
+    print("tu puedes regalar anillo")
+   
