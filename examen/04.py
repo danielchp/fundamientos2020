@@ -1,4 +1,4 @@
-def definirsigno_correspondiente():
+def definirsigno_correspondienteEDCHP():
     #datos de entrada
     
     operacion=int(input("ingrsa 1 si es suma, 2 es resta, 3 si es multiplicacion, 4 si es divicion, 5 si es ponencia:"))
@@ -12,11 +12,12 @@ def definirsigno_correspondiente():
         operacion<3 and operacion>1
         suma=dato1-dato2
  
-    if operacion>2 and operacion<4 :
+    if operacion<4 and operacion>2 :
            suma=dato1*dato2
-    elif operacion <5 and operacion>3:
-     suma=dato1/dato2
-     if operacion<6 and operacion>4 :
-         suma=dato1**dato2
-    print("el resultado  es:",suma)
-definirsigno_correspondiente()
+    else : 
+        operacion <5 and operacion>3
+        suma=dato1/dato2
+    if  operacion <6 and operacion>4 :
+        suma=dato1**dato2
+        print("el resultado es :",suma)
+definirsigno_correspondienteEDCHP()
