@@ -1,0 +1,17 @@
+mes1=int(input("mes 1:"))
+mes2=int(input("mes 2:"))
+mes3=int(input("mes 3:"))
+mes4=int(input("mes 4:"))
+mes5=int(input("mes 5:"))
+mes6=int(input("mes 6:"))
+mes7=int(input("mes 7:"))
+mes8=int(input("mes 8:"))
+mes9=int(input("mes 9:"))
+mes10=int(input("mes 1|:"))
+mes11=int(input("mes 11:"))
+mes12=int(input("mes 12:"))
+años=int(input("ingresar años:"))
+for i in range (1) :
+    totalDineroM=(mes1+mes2+mes3+mes4+mes5+mes6+mes7+mes8+mes9+mes10+mes11+mes12)*años
+    total=totalDineroM+((totalDineroM*10)/100)
+    print(F"el dinero total es :{total}")
