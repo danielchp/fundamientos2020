@@ -1,7 +1,8 @@
-sueldo=int(input("ingrear sueldo"))
+años=int(input("ingrear sueldo"))
 interes=0
+dinero=1500
 r=1
-for r in range(12) :
-   interes=sueldo*0.02
-   sueldo=sueldo+interes
-   print(f"los años son  {r}  sueldo es   {sueldo}")
+for r in range(años) :
+   interes=dinero*0.15
+   dinero=dinero+interes
+print(f"sueldo es   {dinero}")

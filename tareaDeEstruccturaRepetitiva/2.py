@@ -1,26 +1,29 @@
-def presioDeAmburguesa():
-    str
-N=int(input("cuantas amburguesas simples quieres:"))
-S=int(input("cuantas amburguesas dobles quieres:"))
-A=int(input("cuantas amburguesas triples quieres:"))
+def PrecioDeAmburguesasEDCHP():
+    sencilla=int(input("cuantas hamburguesa Sencilla quieres?"))
+    doble=int(input("cuantas hamburguesa dobles quieres? "))
+    triple=int(input("cuantas hamburguesa triples quieres? "))
+    precioSencilla=20
+    precioDoble=25 
+    precioTriple=28
+    if sencilla  <=0:
+        print ("no hay pedido de hamburguesas sencillas")
+    else:
+        if sencilla >=1:
+            print(f"el precio de la hamburguesa Sencilla es :{precioSencilla*sencilla}")
 
-precioI=0
-banburguesaS=0
-banburguesaD=0
-banburguesaT=0
-for banburguesaS in range (N>0):
-     precioI=20*N
-     precioFs=precioI+((precioI*5)/100)
-     if S>0:
-         precioId=25*S
-     precioFd=precioI+((precioI*5)/100)
-else :
-         A>0
-         precioI=29*A
-         precioFt=precioI+((precioI*5)/100)
+    if doble <=0:
+        print("no hay pedido de hamburguesas dobles" )
+    else:
+        if doble >=1:
+            print(f"el precio de la hamburguesa doble es :{precioDoble*doble }")
+    if triple <=0:
+        print("no hay pedido de hamburguesas triples "  )
 
-totalApagar =precioFs+precioFd+precioFt
-      
-   
-print(F"el monto a pagr es: {totalApagar} soles")
-presioDeAmburguesa()
+    else:
+        if triple >=1:
+            print(f"el costo es hamburguesa Triples {precioTriple*triple}")
+    pago = precioSencilla*sencilla + precioDoble*doble + precioTriple*triple 
+    tarjeta=pago*0.05
+    print("el cargo de la tarjeta es ",tarjeta)
+    print("el total a pagar es ",pago + tarjeta)
+PrecioDeAmburguesasEDCHP()
